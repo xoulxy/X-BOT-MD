@@ -44,12 +44,12 @@ Sparky(
             })
             .split(",");
             let menu = `•  owner : ${BOT_INFO.split(";")[1]}
-•  mode : ${WORK_TYPE}
-•  prefix : ${HANDLERS}
-•  date : ${date}
-•  time : ${time}
-•  uptime : ${await m.uptime()}
-•  plugins : ${commands.length}\n ${readMore}\n\n`
+✰  𝐌ᴏᴅᴇ : ${WORK_TYPE}
+✰  𝐏ʀᴇꜰɪx : ${HANDLERS}
+✰  𝐃ᴀᴛᴇ : ${date}
+✰  𝐓ɪᴍᴇ : ${time}
+✰  𝐔ᴩᴛɪᴍᴇ : ${await m.uptime()}
+✰  𝐏ʟᴜɢɪɴꜱ : ${commands.length}\n ${readMore}\n\n`
             let cmnd = [];
             let Sparky;
             let type = [];
