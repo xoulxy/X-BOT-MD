@@ -43,7 +43,7 @@ Sparky(
                 timeZone: "Asia/Kolkata"
             })
             .split(",");
-            let menu = `✰  owner : ${BOT_INFO.split(";")[1]}
+            let menu = `✰  𝐎ᴡɴᴇʀ : ${BOT_INFO.split(";")[1]}
 ✰  𝐌ᴏᴅᴇ : ${WORK_TYPE}
 ✰  𝐏ʀᴇꜰɪx : ${HANDLERS}
 ✰  𝐃ᴀᴛᴇ : ${date}
@@ -79,7 +79,7 @@ Sparky(
             });
             cmnd.sort();
             type.sort().forEach((cmmd) => {
-                menu+= `\n     *${cmmd}*\n\n`
+                menu+= `\n     *_${cmmd}_*\n\n`
                 let comad = cmnd.filter(({
                     category
                 }) => category == cmmd)
@@ -91,7 +91,7 @@ Sparky(
                  });
              });
            
-        let sperky = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "displayName": "X BOT MD V3","vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+        let sperky = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "displayName": "𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️","vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
         return await client.sendMessage(m.jid , { text : font.tiny(menu),
 contextInfo: { externalAdReply: {                                           
 title: font.tiny(`Hᴇʏʏ Tʜᴇʀᴇ  ${m.pushName}`),
