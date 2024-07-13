@@ -100,7 +100,7 @@ sourceUrl: URL,
 mediaUrl: URL,
 mediaType: 1,
 showAdAttribution: true,
-renderLargerThumbnail: false,
+renderLargerThumbnail: true,
 thumbnailUrl: `${BOT_INFO.split(";")[2]}` }}},{ quoted: sperky })      
     }
       } catch (e) {
