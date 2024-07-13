@@ -20,46 +20,8 @@ const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
 const READ_MESSAGES = process.env.READ_MESSAGES || "false";
 const BOT_INFO = process.env.BOT_INFO || "𝐗ᴏᴜʟ 𝐌ᴅ;𝐗ᴏᴜʟ 𝐒ᴇʀ;https://i.imgur.com/CoAcgTb.jpeg";
 const URL = process.env.URL || "https://www.instagram.com/xoulxy";
-const AUDIO_DATA = process.env.AUDIO_DATA || "⺀𑁍 𝚾͢ᴏ᪳ᴜ᪳ʟ᷏᪳ 𝐒͢ᴇ᪳ʀ᷏᪳ ▸ᝃ〔🍉🐼〕;🌝💗🕊️൱᭄റം ഏതꪆ͢യꪆലเ๐ ൱᭄ൖൽ കറുപ്പ് ത͢ന്നെ...!!🌚🖤🍃;https://i.imgur.com/CoAcgTb.jpeg";
-const STICKER_DATA = process.env.STICKER_DATA || "⺀𑁍 𝚾͢ᴏ᪳ᴜ᪳ʟ᷏᪳ 𝐒͢ᴇ᪳ʀ᷏᪳ ▸ᝃ〔🍉🐼〕
-
-
-🍭㆒⾛⾜⾖㆒🦊
-
-
-🌷㆒⾛⾜⾖㆒🌈
-
-
-🌩️㆒⾛⾜⾖㆒🐨
-
-
-🪁㆒⾛⾜⾖㆒🌗
-
-
-🍉㆒⾛⾜⾖㆒🍓
-
-
-🍒㆒⾛⾜⾖㆒🍿;
-
-ㅤㅤㅤ⁹
-
-ㅤㅤㅤ⁶
-
-ㅤㅤㅤ³
-
-ㅤㅤㅤ³
-
-ㅤㅤㅤ⁶
-
-ㅤㅤㅤ⁰
-
-ㅤㅤㅤ⁵
-
-ㅤㅤㅤ⁶
-
-ㅤㅤㅤ⁴
-
-ㅤㅤㅤ⁸";
+const AUDIO_DATA = process.env.AUDIO_DATA || "𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️;🌝💗🕊️൱᭄റം ഏതꪆ͢യꪆലเ๐ ൱᭄ൖൽ കറുപ്പ് ത͢ന്നെ...!!🌚🖤🍃;https://i.imgur.com/CoAcgTb.jpeg";
+const STICKER_DATA = process.env.STICKER_DATA || "𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️";
 const WORK_TYPE = process.env.WORK_TYPE || 'public';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
