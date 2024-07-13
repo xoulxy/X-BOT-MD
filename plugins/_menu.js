@@ -43,7 +43,7 @@ Sparky(
                 timeZone: "Asia/Kolkata"
             })
             .split(",");
-            let menu = `•  owner : ${BOT_INFO.split(";")[1]}
+            let menu = `✰  owner : ${BOT_INFO.split(";")[1]}
 ✰  𝐌ᴏᴅᴇ : ${WORK_TYPE}
 ✰  𝐏ʀᴇꜰɪx : ${HANDLERS}
 ✰  𝐃ᴀᴛᴇ : ${date}
@@ -87,7 +87,7 @@ Sparky(
                 comad.forEach(({
                     Sparky
                 }, num) => {
-                   menu += `• ${Sparky.trim()}\n`
+                   menu += `➪ ${Sparky.trim()}\n`
                  });
              });
            
